@@ -1,40 +1,4 @@
- 
- / ___|   _| |__   ___ _ _\ \/ /_ __ | | ___ (_) |_ 
-| |  | | | | '_ \ / _ \ '__\  /| '_ \| |/ _ \| | __|
-| |__| |_| | |_) |  __/ |  /  \| |_) | | (_) | | |_ 
- \____\__, |_.__/ \___|_| /_/\_\ .__/|_|\___/|_|\__|
-      |___/                    |_|                  
-
-      Welcome to CyberXploit Toolkit
-
-    Your one-stop toolkit for network security!
-
-      (Press 'Help' for a list of tools)
-
-
-Select a Category:
-
-  1. Network Scanning & Discovery
-  2. DNS Information Gathering
-  3. Web Application Recon
-  4. OSINT (Open Source Intelligence) Tools
-  5. Social Media & Email Information Gathering
-  6. Website Vulnerability Scanners
-  7. HTTP Request Tools
-  8. Proxy Tools for Information Gathering
-  9. OSINT from APIs
-  10. Wi-Fi Reconnaissance
-  11. Bluetooth Scanning
-  12. Miscellaneous Recon Tools
-  0. Exit
-
-Enter category number: ^Z
-zsh: suspended  ./CyberXploit
-                                                                                                                                                                                                                                     
-┌──(root㉿kali)-[~/MyProjects/CyberXploit]
-└─# cat CyberXploit
 #!/usr/bin/env python3
-
 import os
 import subprocess
 from colorama import Fore, Style,init
